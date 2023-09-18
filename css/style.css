@@ -2,29 +2,31 @@
 
 body {
   display: flexbox;
-  margin: 50px;
   background-color: white;
 }
 
 header {
   display: flex;
-  height: 150px;
   width: 100%;
-  margin: 15px;
-  padding-bottom: 15px;
+  margin: auto;
   background-color: #404040;
-  align-items: center;
+  justify-content: center;
 }
 
 header nav {
   display: flex;
-  align-self: first baseline;
-  padding-top: 30px;
+  padding: 15px;
 }
 
-nav img {
-  display: flex;
-  padding-left: 30px;
+header img {
+  display:inline-flex;
+  height: 70px;
+  width: 200px;
+  padding: 20px 20px;
+}
+
+nav {
+  display: inline-flex;
 }
 
 nav ul {
@@ -32,7 +34,6 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  vertical-align: middle;
 }
 
 Nav li {
@@ -41,27 +42,27 @@ Nav li {
 
 Nav li a {
   color: #ffffff;
-  padding: 10px 10px;
-  padding-left: 50px;
+  padding: 20px 20px;
+  padding-left: 80px;
   text-decoration: none;
 }
 
 main {
   display: flex;
-  /* align-self: center; */
-  margin: 10px;
-  padding: 20px;
+  margin: 0px;
+  padding: 15px;
 }
 
  .flex-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
  }
 
 section {
   display: flex;
+  align-content: center;
 }
 
 section img {
