@@ -1,7 +1,6 @@
-
-
 body {
   display: flexbox;
+  font-family: 'Open Sans', sans-serif;
   background-color: white;
 }
 
@@ -19,7 +18,7 @@ header nav {
 }
 
 header img {
-  display:inline-flex;
+  display: inline-flex;
   height: 70px;
   width: 200px;
   padding: 20px 20px;
@@ -53,12 +52,12 @@ main {
   padding: 15px;
 }
 
- .flex-container {
+.flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
- }
+}
 
 section {
   display: flex;
@@ -69,7 +68,6 @@ section img {
   display: flex;
   padding: 15px;
 }
-
 
 h1 {
   font-family: sans-serif;
@@ -120,7 +118,8 @@ button {
   margin-top: 20px;
   background-color: black;
 }
-button p{
+
+button p {
   color: white;
 }
 
